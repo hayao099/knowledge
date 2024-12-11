@@ -1,6 +1,6 @@
 # k8sGPT
 ## 検証環境
-* kubernetes 1.31
+* kubernetes 1.31 (single cluster via kubeadm)
 * RHEL 9.5
 
 ## インストール
@@ -40,7 +40,7 @@ AI Provider: openai
 ```
 このとき、問題のあるPodを表示しているだけでLLMは使用していない
 
-* `--explain` を付加して、詳しく見てみる
+* `--explain` を付加して、LLMを使って詳しく見てみる
 ```
 $ k8sgpt analyze --explain
  100% |████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| (1/1, 44 it/min)        
@@ -58,7 +58,7 @@ Solution:
 ```
 
 ## 動作確認(Javaアプリケーション)
-* JavaアプリケーションのJavaオプションが誤っている場合を想定
+JavaアプリケーションのJavaオプションが誤っている場合を想定
 * サンプルアプリケーション teastore を実行する
 ```
 $ git clone https://github.com/DescartesResearch/TeaStore.git
