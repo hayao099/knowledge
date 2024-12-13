@@ -127,3 +127,6 @@ Error: Container teastore-webui in pod teastore-webui-7f75775dbd-bdhwh failed to
 Solution: 1. Check the logs of the container for more specific error messages. 2. Verify the configuration and dependencies of the container. 3. Restart the pod to see if the issue resolves.
 ```
 エラー文以上の情報はないかな...
+
+以下のプロンプトで入力している模様
+https://github.com/k8sgpt-ai/k8sgpt/blob/main/pkg/ai/prompts.go
