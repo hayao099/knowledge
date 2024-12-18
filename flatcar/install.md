@@ -1,4 +1,4 @@
-#　Flatcar のインストール
+# Flatcar のインストール
 
 1. iso ファイルをダウンロード
 * https://www.flatcar.org/docs/latest/installing/bare-metal/booting-with-iso/#docslatest
